@@ -154,15 +154,9 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
+  background-image: url("../img/header.jpg");
   text-align: center;
-  color: rgb(14, 1, 1);
-}
-header #myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  color: white;
 }
 header .header-content {
   position: relative;
@@ -181,8 +175,8 @@ header .header-content .header-content-inner hr {
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
-  color: rgba(0, 0, 0, 0.7);
-  font-size: 30px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
   margin-bottom: 50px;
 }
 @media (min-width: 768px) {
