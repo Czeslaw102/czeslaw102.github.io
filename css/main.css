@@ -164,6 +164,12 @@ header .header-content {
   padding: 100px 15px 100px;
   width: 100%;
 }
+header .header-content h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 header .header-content .header-content-inner h1 {
   font-weight: 700;
   text-transform: uppercase;
@@ -176,7 +182,7 @@ header .header-content .header-content-inner hr {
 header .header-content .header-content-inner p {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
+  font-size: 32px;
   margin-bottom: 50px;
 }
 @media (min-width: 768px) {
@@ -342,6 +348,7 @@ header .header-content .header-content-inner p {
   border-radius: 300px;
   font-weight: 700;
   text-transform: uppercase;
+  background-color: rgb(212, 23, 23);
 }
 
 .btn-xl {
